@@ -1,0 +1,299 @@
+.navbarBelt {
+    background-color: #131921;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.leftNavBelt {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+
+}
+
+.left-NavbarBelt-Logo {
+
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+
+    &:hover {
+
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
+
+
+.amazonLogoNavbar{
+    padding-left: 10px;
+}
+
+.navbar-egLogo {
+    padding-top: 6px;
+    font-weight: 200;
+    font-style: bold;
+}
+
+
+/*...........................*/
+.navbarBeltLocation {
+   
+    display: flex;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+margin-top: 5px;
+    &:hover {
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
+
+.navbarBeltLocationIcon {
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.navbarBeltLocationPlace {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+}
+
+
+.navbarBeltLocationTop {
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 500;
+    
+}
+
+.navbarBeltLocationBottom {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+/*......................*/
+
+.navbarBeltSearchBox {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4px;
+    width: 900px;
+ 
+}
+
+.navbarBeltSearch {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #131921;
+}
+
+
+.navbarBeltSearchBoxAll {
+    margin-left: 10px;
+    display: flex;
+    background-color: #cdcdcd;
+    gap: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    cursor: pointer;
+    color: rgb(118, 118, 118);
+
+}
+
+
+.navbarBeltSearchBoxAll :hover {
+    color: black;
+}
+
+.navbarBeltSearchBoxAllText {
+    font-size: 12px;
+    font-weight: 600;
+    
+
+
+}
+
+.navbarBelt-InputSearchBox {
+    padding: 5px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.navbarBelt-searchIcon {
+    background-color: #e7a54f;
+    font-size: 22px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbarBelt-searchIcon-Item {
+    color: black;
+}
+
+
+
+
+/*................................................*/
+.rightSideNavbarBelt {
+    padding: 5px;
+    display: flex;
+    font-style: bold;
+}
+
+.navbarBelt-Egypt {
+    margin-bottom: 4px;
+    display: flex;
+  gap: 5px;
+  padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 80px;
+    height: 45px;
+
+    &:hover {
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
+
+
+
+.navbarBelt-EgyptText {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    font-weight: 550;
+    padding-top: 3px;
+
+
+}
+
+
+.iconEgypt {
+    color: #ccc;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.navbarBelt-SignIn {
+    align-items: center;
+     height: 40px;
+    cursor: pointer;
+    width: 125px;
+    padding-top: 10px;
+padding-left: 10px;
+    &:hover {
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+}
+
+.navbarBelt-SignInTop {
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.navbarBelt-SignInBottom {
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.conSignIn{
+    font-size: 50px;
+}
+
+.navbarBelt-Orders{
+width: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 5px;
+height: 45px;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid;
+        border-radius: 3px;
+    }
+
+}
+
+
+
+
+.navbarBelt-Cart {
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    width: 95px;
+    height: 48px;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid;
+      border-radius: 3px;
+    }
+  }
+  
+  .navbarBelt-CartNum {
+
+    font-size: 15px;
+    padding: 2px 4px;
+   color:#e7a54f;
+    text-align: center;
+
+   
+    
+  }
+  
+  .navbarBelt-Icon {
+   display: flex; 
+justify-content: center;
+
+
+  }
+  
+  .navbarBelt-CartIcon {
+    font-size: 33px;
+padding-top: 10px;
+
+
+  }
+  
+  .navbarBelt-CartText {
+padding-right: 3px;
+    font-size: 15px;
+  padding-top: 23px;
+   color:white;
+   font-weight: 300;
+  }
