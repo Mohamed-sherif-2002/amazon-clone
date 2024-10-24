@@ -1,0 +1,89 @@
+
+
+/*sidebar*/
+
+.sidebar-container-navigation{
+    position:fixed;
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display  :flex;
+    transition: transform 0.3;
+    transform: translatex(0%);
+    background:  rgba(0, 0, 0, 0.7); 
+    transition: background-color ;
+
+   }
+   
+   
+   
+   .sidebar-left-part{
+      font-family: 'Roboto', sans-serif;
+       background-color: white;
+       width: 350px;
+   height: 100vh;
+       box-sizing: 2px 0px 5px  rgba(0,0,0,0.8);
+       overflow-y: auto;
+      
+   }
+   
+   .sidebar-top{
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       gap: 10px;
+       background-color: rgb(25, 39, 57);
+       color: white;
+       padding: 12px;
+       cursor: pointer;
+   }
+   
+   .sidebar-topicon{
+   font-size: 20px;
+   padding-left: 13px;
+   
+   
+   }
+   
+   
+   .sidebar-item{
+       padding-top: 13px;
+       padding-left: 25px;
+       text-decoration: none;
+       border-bottom: 1px solid rgb(107, 105, 105);
+   }
+   
+   .sidebar-item h2{
+       font-size: 20px;
+       padding-bottom: 10px;
+       color: #111;
+       font-weight: 600;
+       cursor: pointer;
+       
+   }
+   
+   .sidebar-item p {
+       color: rgb(107, 105, 105);
+       padding-block: 15px;
+       cursor: pointer;
+       text-decoration: none;
+       transition: background-color 0.3s ease;
+ 
+   }
+
+
+  
+   #sidebar-close{
+       background-color: transparent;
+       align-self: flex-start;
+       font-size: 33px;
+       border: none;
+       color:  rgb(107, 105, 105);;
+       padding-left: 10px;
+       padding-top: 5px;
+   cursor: pointer;
+   }
+   
+  
